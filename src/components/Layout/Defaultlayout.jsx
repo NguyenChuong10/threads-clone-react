@@ -1,15 +1,14 @@
 import Header from "../Header/Header";
 import { Outlet } from "react-router";
-
+import Footer from "../NavigatorFooter/Footer"
 function Defaultlayout() {
     return (
         <div >
             <Header/>
-                <main className="w-screen min-h-screen m-0 p-0">
+                <main className="">
                     <Outlet></Outlet>
                 </main>
-            {/* Bottom Navigation Bar  */}
-            
+            <Footer/>
         </div>
     );
 }

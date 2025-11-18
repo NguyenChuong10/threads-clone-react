@@ -4,7 +4,7 @@ import NavigatorHeader from '../NavigatorHeader/NavigatorHeader';
 
 function Header() {
   return (
-    <NavigatorHeader/>
+    <NavigatorHeader />
   )
 }
 
